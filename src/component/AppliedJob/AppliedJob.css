@@ -1,0 +1,44 @@
+.applied-jobData {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.contain {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.applied-jobData img {
+    width: 120px;
+    height: 80px;
+}
+
+.btn-data {
+    width: 100px;
+    margin-right: 10px;
+    padding: 9px;
+    color: blue;
+}
+
+.icon {
+    margin-right: 5px;
+    width: 15px;
+    height: 18px;
+}
+
+.job-location {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.job-location p {
+    display: flex;
+}

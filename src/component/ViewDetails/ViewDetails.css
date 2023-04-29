@@ -1,0 +1,42 @@
+.job-info-container {
+    margin-top: 100px;
+}
+
+.job-header {
+    text-align: center;
+}
+
+.job-details-container {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.description {
+    width: 50%;
+}
+
+.details-container {
+    padding-right: 0px;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    text-align: left;
+    width: 25%;
+    background-color: #d5ceec;
+}
+
+.details-container p {
+    display: flex;
+}
+
+.details-container p b {
+    color: #474747;
+    padding-left: 5px;
+}
+
+.btn-applied {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}

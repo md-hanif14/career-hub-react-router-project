@@ -1,0 +1,16 @@
+.name {
+    color: black;
+}
+
+.info-container {
+    width: 380px;
+    height: 150px;
+    padding: 5px;
+    background-color: #ddd8f2;
+}
+
+.info-container img {
+
+    width: 60px;
+    height: 50px;
+}

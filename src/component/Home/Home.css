@@ -1,0 +1,43 @@
+.home-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+    background-color: azure;
+}
+
+.banner-container p {
+    color: #757575;
+}
+
+.dream {
+    color: #9873FF;
+}
+
+.img-container img {
+    width: 690px;
+    height: 650px;
+}
+
+.btn {
+    color: white;
+    background-color: #7E90FE;
+    padding: 19px 28px;
+    gap: 10px;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+}
+
+@media only screen and (max-width: 576px) {
+    .home-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-container img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,35 @@
+.job-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.feature-container {
+    margin-top: 50px;
+}
+
+.job-container p {
+    color: #757575;
+}
+
+.detail-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.data-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 576px) {
+    .detail-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .data-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

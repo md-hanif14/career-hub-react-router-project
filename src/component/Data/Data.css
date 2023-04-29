@@ -1,0 +1,34 @@
+.data {
+    text-align: left;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.data img {
+    width: 120px;
+    height: 80px;
+}
+
+.btn-data {
+    width: 100px;
+    margin-right: 10px;
+    padding: 9px;
+    color: blue;
+}
+
+.icon {
+    margin-right: 5px;
+    width: 15px;
+    height: 18px;
+}
+
+.job-location {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.job-location p {
+    display: flex;
+}
