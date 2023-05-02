@@ -1,2 +1,2 @@
 # career-hub-react-router-project
-[Live server]: (https://inquisitive-rolypoly-fc8ad7.netlify.app/) 
+[career-hub-react-router-project](https://inquisitive-rolypoly-fc8ad7.netlify.app/) 
